@@ -7,6 +7,14 @@
     <title><?php wp_title();?> - <?php bloginfo( 'name' ); ?></title>
     <?php wp_head(); ?>
     <link rel="stylesheet" href="<?php bloginfo('template_url');?>/style.css">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-33826658-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	  gtag('config', 'UA-33826658-1');
+	</script>
   </head>
 <body>
   <header class="mod-head">
